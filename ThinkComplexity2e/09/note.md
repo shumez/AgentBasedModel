@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/AgentBasedModel/ThinkComplexity2e/09
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-22 14:15:0
-Modified: 	2019-04-22 15:24:51
+Modified: 	2019-04-22 15:25:2
 -----
 Copyright (c) 2019 shumez
 -->
@@ -24,7 +24,17 @@ Copyright (c) 2019 shumez
 
 
 
+## 09.01. Schelling's Model
 
+Schelling model ([Schelling, T., 1969][1969_SchellingThomas])
+
+neighborhood
+
+```
+| O | X | X |
+| X | O | O |
+| X | O | X |
+```
 
 
 <!-- ref -->
