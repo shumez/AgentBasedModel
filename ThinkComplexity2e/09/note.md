@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/AgentBasedModel/ThinkComplexity2e/09
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-22 14:15:0
-Modified: 	2019-04-22 15:25:2
+Modified: 	2019-05-02 17:49:33
 -----
 Copyright (c) 2019 shumez
 -->
@@ -35,6 +35,22 @@ neighborhood
 | X | O | O |
 | X | O | X |
 ```
+
+
+## 09.02. Implementation of Schelling's model
+
+```py
+class Schelling(Cell2D):
+    def __init__(self, n, p):
+        self.p = p
+        choices = [0, 1, 2]
+        probs = [.1, .45, .45]
+        self.array = np.random.choice(choices, (n, n), p=probs)
+```
+<!-- <script src="https://github.com/shumez/AgentBasedModel/blob/557615672205fe07b0385208102fb9a73094eded/ThinkComplexity2e/code/Cell2D.py#L30-L36"></script> -->
+
+<script src="https://gist-it.appspot.com/github/shumez/AgentBasedModel/blob/master/ThinkComplexity2e/code/Cell2D.py?slice=29:36"></script>
+
 
 
 <!-- ref -->
